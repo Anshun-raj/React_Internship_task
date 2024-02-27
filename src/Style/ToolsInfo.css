@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tools {
+  max-width: 100%;
+  min-height: 600px;
+  margin: auto;
+  background-color: rgba(252, 214, 116, 0.332);
+}
+
+.tools .toolsInfo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tools .toolsInfo h3 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.tools .toolsInfo p {
+  padding: 10px 0;
+}
+
+.tools .toolsInfo h4 {
+  width: 95%;
+  font-weight: 500;
+  padding: 10px 0;
+  border-top: 2px solid rgb(134, 39, 39);
+  font-weight: 600;
+}
+
+.tools .toolsInfo .fieldWork {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.tools .toolsInfo .fieldWork p {
+  font-size: 13.2px;
+  padding: 0 2px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tools .toolsInfo .fieldWork span {
+  padding: 0 2px;
+}
+
+.tools .toolsInfo .fieldWork #x {
+  padding-left: 230px;
+}
+
+.tools .toolsInfo .fieldWork span {
+  width: 2px;
+  height: 6px;
+  color: rgb(239, 20, 20);
+}
+
+.tools .toolsInfo .toolsImg {
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .tools {
+    padding: 20px 0;
+  }
+  .tools .toolsInfo h3 {
+    font-size: 14px;
+    padding: 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  .tools {
+    height: 700px;
+    padding: 120px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .tools {
+    height: 700px;
+    padding: 170px 0;
+  }
+}

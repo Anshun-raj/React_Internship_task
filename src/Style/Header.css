@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  background-color: rgba(249, 217, 152, 0.3);
+}
+
+.navbar .headerImg {
+  width: 20%;
+}
+
+@media (max-width: 1080px) {
+    .navbar .headerImg {
+      width: 35%;
+    }
+  }
+
